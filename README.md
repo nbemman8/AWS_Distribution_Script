@@ -38,7 +38,7 @@
 
 你也可以下载预先打包好的版本，方便分发或离线使用：
 
-- [点击这里下载 cloudfront-invalidator.zip](https://github.com/yourusername/cloudfront-invalidator/releases/latest/download/cloudfront-invalidator.zip)：包含主脚本、环境变量模板和中英文说明文档
+- [点击这里下载 cloudfront-invalidator.zip](https://github.com/nbemman8/AWS_Distribution_Script/releases/download/v0.0.1/cloudfront-invalidator.zip)：包含主脚本、环境变量模板和中英文说明文档
 
 ---
 
@@ -82,4 +82,4 @@ This project provides a simple PowerShell tool for invalidating one or more AWS 
 
 You can also download a ready-to-use zip version of the tool:
 
-- [Download cloudfront-invalidator.zip](https://github.com/yourusername/cloudfront-invalidator/releases/latest/download/cloudfront-invalidator.zip): includes the main script, `.env` template, and both English and Simplified Chinese guides.
+- [Download cloudfront-invalidator.zip](https://github.com/nbemman8/AWS_Distribution_Script/releases/download/v0.0.1/cloudfront-invalidator.zip): includes the main script, `.env` template, and both English and Simplified Chinese guides.
