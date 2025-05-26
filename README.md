@@ -67,7 +67,3 @@ This project provides a simple PowerShell tool for invalidating one or more AWS 
 You can also download a ready-to-use zip version of the tool:
 
 - `cloudfront-invalidator.zip`: includes the main script, `.env` template, and both English and Simplified Chinese guides.
-
-# AWS_Distribution_Script
-
-for creating invalidation cache
