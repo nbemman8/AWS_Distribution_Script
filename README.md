@@ -21,8 +21,15 @@
 
 3. **输入 CloudFront 分发 ID**  
    当提示时，输入一个或多个 CloudFront Distribution ID（多个 ID 使用英文逗号 , 分隔）
+   例如：ABCDEFG,HIJKLM,MNOPQR
 
 4. 脚本将自动为每个 Distribution 创建路径为 `/*` 的失效请求，以清除所有缓存内容。
+
+> **提示**：如果脚本在执行 `Set-ExecutionPolicy` 命令时报错，请手动在 PowerShell 或 CMD 中执行以下命令，并选择 `是 (Yes)`：
+>
+> ```powershell
+> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+> ```
 
 ---
 
@@ -30,7 +37,7 @@
 
 你也可以下载预先打包好的版本，方便分发或离线使用：
 
-- `cloudfront-invalidator.zip`：包含主脚本、环境变量模板和中英文说明文档
+- [点击这里下载 cloudfront-invalidator.zip](https://github.com/yourusername/cloudfront-invalidator/releases/latest/download/cloudfront-invalidator.zip)：包含主脚本、环境变量模板和中英文说明文档
 
 ---
 
@@ -57,8 +64,15 @@ This project provides a simple PowerShell tool for invalidating one or more AWS 
 
 3. **Enter your CloudFront Distribution ID(s)**  
    When prompted, input one or more CloudFront distribution IDs (comma-separated if multiple)
+   Example: ABCDEFG,HIJKLM,MNOPQR
 
 4. The script will automatically create an invalidation request for the path `/*` on each provided distribution.
+
+> **Note**: If the script fails during `Set-ExecutionPolicy`, manually enter the following command in PowerShell or CMD and choose **Yes**:
+>
+> ```powershell
+> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+> ```
 
 ---
 
@@ -66,4 +80,4 @@ This project provides a simple PowerShell tool for invalidating one or more AWS 
 
 You can also download a ready-to-use zip version of the tool:
 
-- `cloudfront-invalidator.zip`: includes the main script, `.env` template, and both English and Simplified Chinese guides.
+- [Download cloudfront-invalidator.zip](https://github.com/yourusername/cloudfront-invalidator/releases/latest/download/cloudfront-invalidator.zip): includes the main script, `.env` template, and both English and Simplified Chinese guides.
