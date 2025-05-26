@@ -21,6 +21,7 @@
 
 3. **输入 CloudFront 分发 ID**  
    当提示时，输入一个或多个 CloudFront Distribution ID（多个 ID 使用英文逗号 , 分隔）
+
    例如：ABCDEFG,HIJKLM,MNOPQR
 
 4. 脚本将自动为每个 Distribution 创建路径为 `/*` 的失效请求，以清除所有缓存内容。
@@ -64,6 +65,7 @@ This project provides a simple PowerShell tool for invalidating one or more AWS 
 
 3. **Enter your CloudFront Distribution ID(s)**  
    When prompted, input one or more CloudFront distribution IDs (comma-separated if multiple)
+
    Example: ABCDEFG,HIJKLM,MNOPQR
 
 4. The script will automatically create an invalidation request for the path `/*` on each provided distribution.
